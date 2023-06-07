@@ -38,10 +38,10 @@ while True:
             break
 
         if event == "name":
-            zip_name = str(values[0])+".zip"
+            zip_name = str(val
             zip(filename, folder, zip_name)
-            ui.Prom
             break
+            
     display.close()
 
 
